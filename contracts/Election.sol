@@ -14,6 +14,10 @@ contract Election{
 
     uint public candidatesCount;//store count
 
+    event votedEvent(
+        uint indexed _candidateId
+    );
+
     constructor() public{
         // candidate = "Candidat 1"; --smoke test
         addCandidate("Candidate 1");
@@ -33,6 +37,8 @@ contract Election{
         voters[msg.sender] = true;
 
         candidates[_candidateId].voteCount ++;
+
+        emit votedEvent(_candidateId);
 
     }
 
