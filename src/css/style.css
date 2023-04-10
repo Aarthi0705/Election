@@ -12,12 +12,12 @@ body {
   /* Set h1 font size and color */
   h1 {
     font-size: 3em;
-    color: #007bff;
+    color: #159895;
   }
   
   /* Style hr tag */
   hr {
-    border-top: 3px solid #007bff;
+    border-top: 3px solid #159895;
     width: 50%;
   }
   
@@ -34,7 +34,8 @@ body {
   
   /* Set table header font color */
   thead th {
-    color: #007bff;
+    color: #159895;
+    text-align: center;
   }
   
   /* Style form */
@@ -52,6 +53,11 @@ body {
   #accountAddress {
     font-size: 1.2em;
     font-style: italic;
-    margin-top: 1em;
-  }
+    padding-top: 200px;
   
+
+  }
+  .india{
+    padding: 20px;
+
+  }
