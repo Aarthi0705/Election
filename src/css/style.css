@@ -1,0 +1,57 @@
+/* Set body background color */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  /* Style container and center content */
+  .container {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Set h1 font size and color */
+  h1 {
+    font-size: 3em;
+    color: #007bff;
+  }
+  
+  /* Style hr tag */
+  hr {
+    border-top: 3px solid #007bff;
+    width: 50%;
+  }
+  
+  /* Style loading text */
+  #loader {
+    font-size: 1.5em;
+    font-style: italic;
+  }
+  
+  /* Style table */
+  table {
+    width: 100%;
+  }
+  
+  /* Set table header font color */
+  thead th {
+    color: #007bff;
+  }
+  
+  /* Style form */
+  form {
+    margin-top: 1em;
+  }
+  
+  /* Style candidate select dropdown */
+  #candidatesSelect {
+    width: 100%;
+    font-size: 1.2em;
+  }
+  
+  /* Style account address text */
+  #accountAddress {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 1em;
+  }
+  

@@ -21,7 +21,7 @@ contract Election{
     constructor() public{
         // candidate = "Candidat 1"; --smoke test
         addCandidate("Candidate 1");
-        addCandidate("Candi 2");
+        addCandidate("Candidate 2");
 
     }
     function addCandidate (string memory _name) private {
