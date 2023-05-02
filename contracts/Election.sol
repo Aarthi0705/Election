@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 pragma solidity >=0.4.16 <0.9.0;
 
 contract Election{
@@ -20,8 +21,8 @@ contract Election{
 
     constructor() public{
         // candidate = "Candidat 1"; --smoke test
-        addCandidate("Candidate 1");
-        addCandidate("Candidate 2");
+        addCandidate("Trump");
+        addCandidate("Joe Biden");
 
     }
     function addCandidate (string memory _name) private {
