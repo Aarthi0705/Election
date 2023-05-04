@@ -31,25 +31,17 @@ body {
   table {
     width: 100%;
   }
-  
-  /* Set table header font color */
   thead th {
     color: #159895;
     text-align: center;
   }
-  
-  /* Style form */
   form {
     margin-top: 1em;
   }
-  
-  /* Style candidate select dropdown */
   #candidatesSelect {
     width: 100%;
     font-size: 1.2em;
   }
-  
-  /* Style account address text */
   #accountAddress {
     font-size: 1.2em;
     font-style: italic;

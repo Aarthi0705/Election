@@ -2,8 +2,6 @@
 pragma solidity >=0.4.16 <0.9.0;
 
 contract Election{
-
-    // string public candidate; --smoke test
     struct Candidate{
         uint id;
         string name;
@@ -20,7 +18,7 @@ contract Election{
     );
 
     constructor() public{
-        // candidate = "Candidat 1"; --smoke test
+        // candidate = "Candidate 1";
         addCandidate("Trump");
         addCandidate("Joe Biden");
 
